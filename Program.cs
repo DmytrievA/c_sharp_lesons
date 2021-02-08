@@ -10,6 +10,18 @@ namespace Learning_C_sharp
     {
         static void Main(string[] args)
         {
+            //change appearence
+            Console.Title = "My Rocking App";
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.Blue;
+            //write text
+            Console.WriteLine("***************************************************");
+            Console.WriteLine("*****************Hello world!!*********************");
+            Console.WriteLine("***************************************************");
+            Console.BackgroundColor = ConsoleColor.Black;
+
+            //wait for user input
+            Console.ReadLine();
         }
     }
 }
